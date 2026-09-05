@@ -42,7 +42,7 @@ app = Flask(__name__)
 # CONFIG
 # ============================================================
 
-WORKER_TOKEN = os.environ.get("WORKER_TOKEN")
+WORKER_TOKEN = "7f3c9a1d8b2e4c6f91a73d5e8b2c4a10"
 
 if not WORKER_TOKEN:
     print("WARNING: WORKER_TOKEN is not configured.")
