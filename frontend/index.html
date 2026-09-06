@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        content="width=device-width, initial-scale=1.0"
     >
 
     <meta
@@ -19,16 +20,12 @@
         rel="stylesheet"
         href="/style.css"
     >
-
-    <!-- Google AdSense -->
-    <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7504995921839373"
-        crossorigin="anonymous"
-    ></script>
 </head>
 
 <body>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7504995921839373"
+     crossorigin="anonymous"></script>
 
 <div id="background-network"></div>
 
@@ -47,6 +44,7 @@
                 Pysic
             </div>
         </div>
+
 
         <nav class="nav">
 
@@ -84,10 +82,11 @@
 
         </nav>
 
+
         <div class="sidebar-section">
 
             <div class="sidebar-title">
-                <span>YOUR LIBRARY</span>
+                YOUR LIBRARY
 
                 <button
                     id="create-playlist-sidebar"
@@ -104,6 +103,7 @@
             ></div>
 
         </div>
+
 
         <div class="sidebar-bottom">
 
@@ -157,7 +157,7 @@
                     class="round-button"
                     title="Back"
                 >
-                    < 
+                    <
                 </button>
 
                 <button
@@ -187,7 +187,6 @@
                 <button
                     id="clear-search"
                     class="search-clear hidden"
-                    type="button"
                 >
                     x
                 </button>
@@ -198,7 +197,6 @@
             <button
                 id="top-profile"
                 class="top-profile"
-                type="button"
             >
 
                 <div
@@ -222,49 +220,13 @@
 
 
         <!-- =================================================
-             SCROLLABLE CONTENT
+             CONTENT
              ================================================= -->
 
-        <div class="content-shell">
-
-            <!-- Optional advertisement slot -->
-
-            <div
-                class="ad-slot"
-                id="top-ad-slot"
-                aria-label="Advertisement"
-            >
-
-                <span class="ad-slot-label">
-                    ADVERTISEMENT
-                </span>
-
-                <div class="ad-slot-inner">
-
-                    <ins
-                        class="adsbygoogle"
-                        style="display:block"
-                        data-ad-client="ca-pub-7504995921839373"
-                        data-ad-slot="YOUR_AD_SLOT_ID"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"
-                    ></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-
-                </div>
-
-            </div>
-
-
-            <div
-                id="content"
-                class="content"
-            ></div>
-
-        </div>
+        <div
+            id="content"
+            class="content"
+        ></div>
 
     </main>
 
@@ -308,7 +270,6 @@
             id="player-like"
             class="player-like"
             title="Like"
-            type="button"
         >
             *
         </button>
@@ -324,16 +285,14 @@
                 id="previous-button"
                 class="player-control"
                 title="Previous"
-                type="button"
             >
-                |< 
+                |<
             </button>
 
             <button
                 id="skip-back-button"
                 class="player-control small"
                 title="Back 10 seconds"
-                type="button"
             >
                 -10
             </button>
@@ -341,7 +300,6 @@
             <button
                 id="play-button"
                 class="play-button"
-                type="button"
             >
                 >
             </button>
@@ -350,7 +308,6 @@
                 id="skip-forward-button"
                 class="player-control small"
                 title="Forward 10 seconds"
-                type="button"
             >
                 +10
             </button>
@@ -359,7 +316,6 @@
                 id="next-button"
                 class="player-control"
                 title="Next"
-                type="button"
             >
                 >|
             </button>
@@ -402,7 +358,6 @@
             id="loop-button"
             class="player-control"
             title="Loop"
-            type="button"
         >
             @
         </button>
@@ -474,7 +429,6 @@
             <button
                 class="modal-close"
                 onclick="closePlaylistModal()"
-                type="button"
             >
                 x
             </button>
@@ -491,7 +445,6 @@
         <button
             class="modal-secondary"
             onclick="closePlaylistModal()"
-            type="button"
         >
             Cancel
         </button>
@@ -529,7 +482,6 @@
             <button
                 class="modal-close"
                 id="close-create-playlist"
-                type="button"
             >
                 x
             </button>
@@ -568,7 +520,6 @@
             </div>
 
             <div>
-
                 <strong>
                     Playlist image
                 </strong>
@@ -576,7 +527,6 @@
                 <span>
                     Optional
                 </span>
-
             </div>
 
         </label>
@@ -587,7 +537,6 @@
             <button
                 class="modal-secondary"
                 id="cancel-create-playlist"
-                type="button"
             >
                 Cancel
             </button>
@@ -595,7 +544,6 @@
             <button
                 class="accent-button"
                 id="confirm-create-playlist"
-                type="button"
             >
                 Create
             </button>
@@ -639,7 +587,6 @@
             <button
                 class="modal-close"
                 id="close-delete-playlist"
-                type="button"
             >
                 x
             </button>
@@ -654,7 +601,6 @@
             </span>
 
             <div>
-
                 <strong id="delete-playlist-title">
                     Playlist
                 </strong>
@@ -662,7 +608,6 @@
                 <p>
                     Type the playlist name below to confirm.
                 </p>
-
             </div>
 
         </div>
@@ -687,7 +632,6 @@
             <button
                 class="modal-secondary"
                 id="cancel-delete-playlist"
-                type="button"
             >
                 Cancel
             </button>
@@ -696,7 +640,6 @@
                 class="danger-button"
                 id="confirm-delete-playlist"
                 disabled
-                type="button"
             >
                 Delete playlist
             </button>
@@ -736,7 +679,6 @@
             <button
                 class="modal-close"
                 id="close-profile"
-                type="button"
             >
                 x
             </button>
@@ -793,7 +735,6 @@
             <button
                 class="modal-secondary"
                 id="cancel-profile"
-                type="button"
             >
                 Cancel
             </button>
@@ -801,7 +742,6 @@
             <button
                 class="accent-button"
                 id="save-profile"
-                type="button"
             >
                 Save changes
             </button>
